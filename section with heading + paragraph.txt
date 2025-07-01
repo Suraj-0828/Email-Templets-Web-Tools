@@ -1,0 +1,22 @@
+=========== section with heading + paragraph ============
+
+
+<tr>
+  <td style="padding: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 21px; color: #333333;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td style="font-size: 16px; line-height: 24px; font-weight: bold; padding-bottom: 10px;">
+          Section Heading
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 14px; line-height: 21px;">
+          This is a paragraph of text used in the body of the email template.
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+=========== section with heading + paragraph ============

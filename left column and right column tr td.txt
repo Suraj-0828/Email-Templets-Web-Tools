@@ -1,0 +1,16 @@
+================= left column and right column tr td ================
+
+
+
+	    <tr>
+              <td align="left" style="padding: 5px;">
+                * (≥1/100, &lt;1/10).²
+              </td>
+              <td align="right" style="padding: 5px;">
+                Elaborazione grafica da Tab. 1, Ref. 2
+              </td>
+            </tr>
+
+
+
+================= left column and right column tr td ================

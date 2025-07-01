@@ -1,0 +1,136 @@
+========= email templet structure ==========
+
+
+
+/* ✅ Base email-safe styles in PX units */
+body, table, td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 21px;         /* 1.5 × 14px */
+  color: #333333;
+}
+
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 600px;
+  width: 100%;
+}
+
+td {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  vertical-align: top;
+}
+
+
+----------------------------------------------------
+
+1. Container Table (like .container)
+
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin: 0 auto; border-collapse: collapse;">
+  <tr>
+    <td align="left" style="padding: 20px;">
+      <!-- Content Here -->
+    </td>
+  </tr>
+</table>
+
+
+----------------------------------------------------
+
+
+2. Two-Column Layout (like Bootstrap row > col-6 col-6)
+
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;">
+  <tr>
+    <!-- Column 1 -->
+    <td width="50%" valign="top" style="padding: 10px;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td style="font-size: 14px; line-height: 21px; color: #333333;">
+            Column 1 content
+          </td>
+        </tr>
+      </table>
+    </td>
+
+    <!-- Column 2 -->
+    <td width="50%" valign="top" style="padding: 10px;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td style="font-size: 14px; line-height: 21px; color: #333333;">
+            Column 2 content
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+-------------------------------------------------------------
+
+
+ 3. Section with Heading + Paragraph
+
+
+<tr>
+  <td style="padding: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 21px; color: #333333;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td style="font-size: 16px; line-height: 24px; font-weight: bold; padding-bottom: 10px;">
+          Section Heading
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 14px; line-height: 21px;">
+          This is a paragraph of text used in the body of the email template.
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+
+========= email templet structure ==========

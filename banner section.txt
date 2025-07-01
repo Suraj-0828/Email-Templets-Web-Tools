@@ -1,0 +1,37 @@
+============== banner section ==============
+
+
+
+ 		<tr>
+                  <td
+                    width="100%"
+                    class="w100"
+                    align="center"
+                    valign="top"
+                    style="
+                      background-color: #ffffff;
+                      width: 100%;
+                      max-width: 600px;
+                      padding-top: 20px;
+                    "
+                  >
+                    <img
+                      class="w100"
+                      alt="Hero Image"
+                      src="img.png"
+                      width="600"
+                      align="center"
+                      valign="top"
+                      style="
+                        margin-bottom: -29px;
+                        color: #231556;
+                        width: 600px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        max-width: 600px;
+                      "
+                    />
+                  </td>
+                </tr>
+
+
+============== banner section ==============

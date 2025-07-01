@@ -1,0 +1,164 @@
+============== table section =============
+
+
+
+		<tr>
+                  <td valign="bottom" style="padding: 0 50px 0 50px">
+                    <!-- Container table to simulate responsiveness -->
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="100%"
+                      style="
+                        max-width: 600px;
+                        border-collapse: collapse;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 14px;
+                        color: #000;
+                      "
+                    >
+                      <tr>
+                        <td style="overflow-x: auto">
+                          <!-- Scrollable inner table for mobile -->
+                          <table
+                            role="presentation"
+                            border="0"
+                            cellpadding="0"
+                            cellspacing="0"
+                            style="
+                              min-width: 100%;
+                              border-collapse: collapse;
+                              width: 100%;
+    			      font-size: 13px;
+                            "
+                          >
+                            <thead>
+                              <tr style="background-color: #f2f2f2">
+                                <th
+                                  align="left"
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Classificazione per sistemi e organi (SOC)
+                                  secondo MedDRA
+                                </th>
+                                <th
+                                  align="left"
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Categoria di frequenza
+                                </th>
+                                <th
+                                  align="left"
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Reazione avversa
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Disturbi psichiatrici
+                                </td>
+                                <td
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Comune*
+                                </td>
+                                <td
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Insonnia
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Patologie gastrointestinali
+                                </td>
+                                <td
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Comune*
+                                </td>
+                                <td
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Diarrea, dolore addominale
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  rowspan="2"
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Patologie epatobiliari
+                                </td>
+                                <td
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Comune*
+                                </td>
+                                <td
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Alanina aminotransferasi (ALT) aumentata,
+                                  aspartato aminotransferasi (AST) aumentata#
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Non nota
+                                </td>
+                                <td
+                                  style="padding: 10px; border: 2px solid #000"
+                                >
+                                  Danno epatico indotto da farmaci (DILI)#
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Footnote and Reference Section -->
+                      <tr>
+                        <td style="padding-top: 10px">
+                          <table
+                            role="presentation"
+                            border="0"
+                            cellpadding="0"
+                            cellspacing="0"
+                            width="100%"
+                            style="
+                              border-collapse: collapse;
+                              font-family: Arial, Helvetica, sans-serif;
+                              font-size: 12px;
+                              color: #2e2a84;
+                            "
+                          >
+                            <tr>
+                              <td align="left" style="padding: 5px">
+                                * (≥1/100, &lt;1/10).²
+                              </td>
+                              <td align="right" style="padding: 5px">
+                                Elaborazione grafica da Tab. 1, Ref. 2
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- End Footnote Section -->
+                    </table>
+                  </td>
+                </tr>
+
+
+============== table section =============

@@ -1,0 +1,9 @@
+========== square style =========
+
+
+    vertical-align: 5px;
+    font-size: 10px;
+    line-height: 10px;
+
+
+========== square style =========
